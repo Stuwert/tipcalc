@@ -5,4 +5,13 @@ h1{
 
 form{
   margin: 10px 45%;
+  width: 200px;
+}
+
+input, button{
+  margin: 0 auto;
+}
+
+p{
+  text-align: center;
 }

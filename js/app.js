@@ -7,6 +7,6 @@ myButton.addEventListener("click", function(){
   var tip = .15 * number;
   tip = Number(tip);
   var totalAmt = document.getElementById("total-calc");
-  totalCalc.textContent = tip;
-  totalAmt.textContent = tip + number;
+  totalCalc.textContent = "$ " + tip;
+  totalAmt.textContent = "$ " + (tip + number);
 });
