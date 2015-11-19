@@ -6,22 +6,37 @@
     <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <h1>Tip Calculator</h1>
-    <form class="" action="index.html" method="post">
-      <input type="text" value="" autofocus>
-      <button id="awesome" type="button" name="button">Awesome</button>
-      <button id="dece" type="button" name="button">Dece</button>
-      <button id="poor" type="button" name="button">Poor</button>
-      <button id="douche" type="button" name="button">I'm a Douche</button>
-    </form>
-    <p>Tip Amt:</p>
-    <p id="tip-calc">
+    <div id="main">
+      <h1 id="header">Tip Calculator</h1>
+      <form class="" action="index.html" method="post">
+        <div id="cost">
+          <label for="">Cost of Meal</label>
+          <input id="mealcost" type="text" value="" autofocus>
+        </div>
+        <p>
+          How was the service?
+        </p>
+        <button id="awesome" type="button">Awesome</button>
+        <button id="dece" type="button">Dece</button>
+        <button id="poor" type="button">Poor</button>
+        <button id="douche" type="button">Not Worth a Tip</button>
+      </form>
+      <div id="calculation">
+        <div class="tip">
+          <p>Tip Amt:</p>
+          <p id="tip-calc" class="tipp">
+            Tip
+          </p>
+        </div>
+        <div class="tip">
+          <p>Total Amt:</p>
+          <p id="total-calc" class="tipp">
+            Total
+          </p>
+        </div>
+      </div>
+    </div>
 
-    </p>
-    <p>Total Amt:</p>
-    <p id="total-calc">
-
-    </p>
     <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>

@@ -1,11 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+
 h1{
   text-align: center;
-  margin-top: 200px;
+}
+
+div{
+  margin: 0 auto;
+  width: 400px;
+  height: 600px;
+  background-color: green;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+#main{
+  box-shadow: 1px 1px 2px 2px black;
+}
+
+label{
+  margin-left: 10px;
 }
 
 form{
-  margin: 10px 45%;
-  width: 200px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+input[type="text"]{
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#cost{
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+  background-color: inherit;
+}
+
+#calculation{
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: inherit;
+}
+
+button[type="button"]{
+  width: 100%;
+  margin: 10px 0;
+  height: 30px;
+  border-radius: 15px;
 }
 
 input, button{
@@ -14,4 +62,30 @@ input, button{
 
 p{
   text-align: center;
+  margin: 0;
+}
+.tip{
+  height: auto;
+  float: left;
+  width: 42.5%;
+  background-color: inherit;
+}
+.tip:last-child{
+  margin-left: 10%;
+}
+
+p.tipp{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.red{
+  color: white;
+  background-color: red;
+}
+
+.red h1{
+  font-size: 50px;
+  margin: 0;
 }
